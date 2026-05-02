@@ -206,19 +206,19 @@ http://localhost:8080/v3/api-docs             ← raw JSON spec
 
 ## Key Annotations Explained
 
-| Annotation | What it does |
-|---|---|
-| `@RestController` | Marks HTTP handler class; returns JSON automatically |
-| `@RequestMapping` | Sets base URL for the controller |
-| `@PostMapping` / `@GetMapping` / `@PutMapping` / `@DeleteMapping` | Maps HTTP method to a Java method |
-| `@RequestBody` | Converts incoming JSON → Java object |
-| `@PathVariable` | Reads `{id}` from the URL |
-| `@Service` | Business logic layer bean |
-| `@Repository` | Data access layer bean |
-| `@Component` | Generic Spring-managed bean (used in `ProductMapper`) |
-| `@Entity` | Maps Java class to a DB table |
-| `@Id` + `@GeneratedValue` | Auto-generated primary key |
-| `@ControllerAdvice` | Global exception handler for all controllers |
+ Annotation : What it does ?
+
+ #`@RestController` : Marks HTTP handler class; returns JSON automatically .
+# `@RequestMapping` : Sets base URL for the controller .
+# `@PostMapping` , `@GetMapping` , `@PutMapping` , `@DeleteMapping` : Maps HTTP method to a Java method .
+# `@RequestBody` : Converts incoming JSON → Java object .
+# `@PathVariable` : Reads `{id}` from the URL .
+# `@Service` : Business logic layer bean .
+# `@Repository` : Data access layer bean .
+# `@Component` : Generic Spring-managed bean (used in `ProductMapper`).
+# `@Entity` : Maps Java class to a DB table.
+# `@Id` + `@GeneratedValue` : Auto-generated primary key.
+# `@ControllerAdvice`:Global exception handler for all controllers.
 
 
 
